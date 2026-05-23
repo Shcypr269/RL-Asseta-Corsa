@@ -1,0 +1,20 @@
+{
+  "nodes": [
+    {
+      "id": "readme_acrl",
+      "label": "Assetto Corsa Reinforcement Learning",
+      "file_type": "document",
+      "source_file": "README.md"
+    },
+    {
+      "id": "readme_sac",
+      "label": "SAC Algorithm",
+      "file_type": "rationale",
+      "source_file": "README.md"
+    }
+  ],
+  "edges": [],
+  "hyperedges": [],
+  "input_tokens": 100,
+  "output_tokens": 100
+}

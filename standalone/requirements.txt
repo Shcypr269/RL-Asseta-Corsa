@@ -1,0 +1,9 @@
+cmake
+numpy
+torch
+keyboard
+vgamepad
+matplotlib
+gymnasium
+mpi4py
+joblib

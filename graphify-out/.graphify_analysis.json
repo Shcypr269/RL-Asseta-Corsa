@@ -1,0 +1,552 @@
+{
+  "communities": {
+    "0": [
+      "ac_api_car_info_format_time",
+      "ac_api_car_info_get_abs_in_action",
+      "ac_api_car_info_get_acceleration",
+      "ac_api_car_info_get_brake_bias",
+      "ac_api_car_info_get_car_in_pit_lane",
+      "ac_api_car_info_get_cg_height",
+      "ac_api_car_info_get_delta_to_car_ahead",
+      "ac_api_car_info_get_delta_to_car_behind",
+      "ac_api_car_info_get_drive_train_speed",
+      "ac_api_car_info_get_drs_available",
+      "ac_api_car_info_get_drs_enabled",
+      "ac_api_car_info_get_engine_brake",
+      "ac_api_car_info_get_fuel",
+      "ac_api_car_info_get_gear",
+      "ac_api_car_info_get_location",
+      "ac_api_car_info_get_location_damage",
+      "ac_api_car_info_get_position",
+      "ac_api_car_info_get_rpm",
+      "ac_api_car_info_get_speed",
+      "ac_api_car_info_get_tc_in_action",
+      "ac_api_car_info_get_total_damage",
+      "ac_api_car_info_get_tyres_off_track",
+      "ac_api_car_info_get_velocity",
+      "ac_api_car_info_get_world_location",
+      "ac_api_car_info_rationale_133",
+      "ac_api_car_info_rationale_142",
+      "ac_api_car_info_rationale_155",
+      "ac_api_car_info_rationale_170",
+      "ac_api_car_info_rationale_180",
+      "ac_api_car_info_rationale_199",
+      "ac_api_car_info_rationale_208",
+      "ac_api_car_info_rationale_218",
+      "ac_api_car_info_rationale_226",
+      "ac_api_car_info_rationale_235",
+      "ac_api_car_info_rationale_28",
+      "ac_api_car_info_rationale_41",
+      "ac_api_car_info_rationale_56",
+      "ac_api_car_info_rationale_95",
+      "acrl_ac_api_car_info_py"
+    ],
+    "1": [
+      "sac_ac_environment_acenv",
+      "sac_ac_environment_acenv_close",
+      "sac_ac_environment_acenv_get_info",
+      "sac_ac_environment_acenv_get_reward_1",
+      "sac_ac_environment_acenv_get_reward_2",
+      "sac_ac_environment_acenv_get_reward_3",
+      "sac_ac_environment_acenv_get_reward_4",
+      "sac_ac_environment_acenv_get_reward_5",
+      "sac_ac_environment_acenv_init",
+      "sac_ac_environment_acenv_reset",
+      "sac_ac_environment_acenv_set_sock",
+      "sac_ac_environment_acenv_step",
+      "sac_ac_environment_acenv_update_obs",
+      "sac_ac_environment_rationale_121",
+      "sac_ac_environment_rationale_127",
+      "sac_ac_environment_rationale_15",
+      "sac_ac_environment_rationale_153",
+      "sac_ac_environment_rationale_180",
+      "sac_ac_environment_rationale_208",
+      "sac_ac_environment_rationale_237",
+      "sac_ac_environment_rationale_254",
+      "sac_ac_environment_rationale_274",
+      "sac_ac_environment_rationale_316",
+      "sac_ac_environment_rationale_70",
+      "standalone_ac_controller_accontroller",
+      "standalone_ac_controller_accontroller_init",
+      "standalone_ac_controller_accontroller_perform",
+      "standalone_ac_controller_accontroller_reset_car",
+      "standalone_ac_controller_py",
+      "standalone_ac_controller_rationale_21",
+      "standalone_sac_ac_environment_py",
+      "standalone_sac_utils_track_spline_py",
+      "utils_track_spline_get_closest_spline_point",
+      "utils_track_spline_get_distance_to_center_line",
+      "utils_track_spline_get_heading_error",
+      "utils_track_spline_rationale_18",
+      "utils_track_spline_rationale_35",
+      "utils_track_spline_rationale_5"
+    ],
+    "2": [
+      "ac_api_session_info_get_air_density",
+      "ac_api_session_info_get_air_temp",
+      "ac_api_session_info_get_assists",
+      "ac_api_session_info_get_car_ballast",
+      "ac_api_session_info_get_car_ffb",
+      "ac_api_session_info_get_car_min_height",
+      "ac_api_session_info_get_car_name",
+      "ac_api_session_info_get_cars_count",
+      "ac_api_session_info_get_caster",
+      "ac_api_session_info_get_driver_name",
+      "ac_api_session_info_get_max_power",
+      "ac_api_session_info_get_max_rpm",
+      "ac_api_session_info_get_max_sus_travel",
+      "ac_api_session_info_get_max_torque",
+      "ac_api_session_info_get_max_turbo",
+      "ac_api_session_info_get_radius",
+      "ac_api_session_info_get_road_temp",
+      "ac_api_session_info_get_session_status",
+      "ac_api_session_info_get_session_type",
+      "ac_api_session_info_get_surface_grip",
+      "ac_api_session_info_get_track_config",
+      "ac_api_session_info_get_track_length",
+      "ac_api_session_info_get_track_name",
+      "ac_api_session_info_get_tyre_compound",
+      "ac_api_session_info_rationale_30",
+      "ac_api_session_info_rationale_39",
+      "ac_api_session_info_rationale_48",
+      "ac_api_session_info_rationale_57",
+      "ac_api_session_info_rationale_65",
+      "ac_api_session_info_rationale_73",
+      "ac_api_session_info_rationale_81",
+      "ac_api_session_info_rationale_89",
+      "acrl_ac_api_session_info_py"
+    ],
+    "3": [
+      "sac_sac_rationale_13",
+      "sac_sac_rationale_136",
+      "sac_sac_rationale_18",
+      "sac_sac_rationale_190",
+      "sac_sac_rationale_223",
+      "sac_sac_rationale_242",
+      "sac_sac_rationale_282",
+      "sac_sac_rationale_290",
+      "sac_sac_rationale_33",
+      "sac_sac_rationale_46",
+      "sac_sac_rationale_60",
+      "sac_sac_replaybuffer",
+      "sac_sac_replaybuffer_init",
+      "sac_sac_replaybuffer_sample_batch",
+      "sac_sac_replaybuffer_store",
+      "sac_sac_sacagent",
+      "sac_sac_sacagent_compute_loss_pi",
+      "sac_sac_sacagent_compute_loss_q",
+      "sac_sac_sacagent_get_action",
+      "sac_sac_sacagent_init",
+      "sac_sac_sacagent_train",
+      "sac_sac_sacagent_update",
+      "standalone_sac_sac_py",
+      "utils_logx_episodelogger",
+      "utils_logx_episodelogger_get_stats",
+      "utils_logx_episodelogger_init",
+      "utils_logx_episodelogger_log_tabular",
+      "utils_logx_episodelogger_store",
+      "utils_logx_rationale_317",
+      "utils_logx_rationale_346",
+      "utils_logx_rationale_358",
+      "utils_logx_rationale_394"
+    ],
+    "4": [
+      "standalone_sac_utils_logx_py",
+      "standalone_sac_utils_serialization_utils_py",
+      "utils_logx_logger",
+      "utils_logx_logger_dump_tabular",
+      "utils_logx_logger_init",
+      "utils_logx_logger_load_config",
+      "utils_logx_logger_log",
+      "utils_logx_logger_log_tabular",
+      "utils_logx_logger_pytorch_simple_save",
+      "utils_logx_logger_save_config",
+      "utils_logx_logger_save_drive_data",
+      "utils_logx_logger_save_state",
+      "utils_logx_logger_setup_pytorch_saver",
+      "utils_logx_rationale_1",
+      "utils_logx_rationale_100",
+      "utils_logx_rationale_105",
+      "utils_logx_rationale_121",
+      "utils_logx_rationale_148",
+      "utils_logx_rationale_190",
+      "utils_logx_rationale_219",
+      "utils_logx_rationale_250",
+      "utils_logx_rationale_266",
+      "utils_logx_rationale_288",
+      "utils_logx_rationale_50",
+      "utils_logx_rationale_58",
+      "utils_mpi_tools_proc_id",
+      "utils_mpi_tools_rationale_47",
+      "utils_serialization_utils_convert_json",
+      "utils_serialization_utils_is_json_serializable",
+      "utils_serialization_utils_rationale_33",
+      "utils_serialization_utils_rationale_5"
+    ],
+    "5": [
+      "ac_api_lap_info_format_time",
+      "ac_api_lap_info_get_best_lap_time",
+      "ac_api_lap_info_get_current_lap_time",
+      "ac_api_lap_info_get_current_sector",
+      "ac_api_lap_info_get_invalid",
+      "ac_api_lap_info_get_lap_count",
+      "ac_api_lap_info_get_lap_delta",
+      "ac_api_lap_info_get_laps",
+      "ac_api_lap_info_get_last_lap_time",
+      "ac_api_lap_info_get_split",
+      "ac_api_lap_info_get_splits",
+      "ac_api_lap_info_rationale_113",
+      "ac_api_lap_info_rationale_121",
+      "ac_api_lap_info_rationale_132",
+      "ac_api_lap_info_rationale_141",
+      "ac_api_lap_info_rationale_152",
+      "ac_api_lap_info_rationale_28",
+      "ac_api_lap_info_rationale_41",
+      "ac_api_lap_info_rationale_58",
+      "ac_api_lap_info_rationale_75",
+      "ac_api_lap_info_rationale_92",
+      "acrl_ac_api_lap_info_py"
+    ],
+    "6": [
+      "ac_api_tyre_info_get_angular_speed",
+      "ac_api_tyre_info_get_brake_temp",
+      "ac_api_tyre_info_get_camber",
+      "ac_api_tyre_info_get_load",
+      "ac_api_tyre_info_get_slip_angle",
+      "ac_api_tyre_info_get_slip_ratio",
+      "ac_api_tyre_info_get_suspension_travel",
+      "ac_api_tyre_info_get_torque",
+      "ac_api_tyre_info_get_tyre_contact_normal",
+      "ac_api_tyre_info_get_tyre_contact_point",
+      "ac_api_tyre_info_get_tyre_dirty",
+      "ac_api_tyre_info_get_tyre_heading_vector",
+      "ac_api_tyre_info_get_tyre_pressure",
+      "ac_api_tyre_info_get_tyre_right_vector",
+      "ac_api_tyre_info_get_tyre_temp",
+      "ac_api_tyre_info_get_tyre_wear_value",
+      "ac_api_tyre_info_rationale_33",
+      "ac_api_tyre_info_rationale_42",
+      "ac_api_tyre_info_rationale_51",
+      "ac_api_tyre_info_rationale_72",
+      "ac_api_tyre_info_rationale_83",
+      "acrl_ac_api_tyre_info_py"
+    ],
+    "7": [
+      "sac_ac_environment_acenv_render",
+      "sac_ac_environment_rationale_310",
+      "standalone_ac_socket_acsocket",
+      "standalone_ac_socket_acsocket_connect",
+      "standalone_ac_socket_acsocket_end_training",
+      "standalone_ac_socket_acsocket_init",
+      "standalone_ac_socket_acsocket_on_close",
+      "standalone_ac_socket_acsocket_update",
+      "standalone_ac_socket_py",
+      "standalone_ac_socket_rationale_18",
+      "standalone_ac_socket_rationale_32",
+      "standalone_ac_socket_rationale_40",
+      "standalone_ac_socket_rationale_54",
+      "standalone_ac_socket_rationale_67",
+      "standalone_ac_socket_rationale_7",
+      "standalone_main_main",
+      "standalone_main_py",
+      "standalone_main_rationale_12",
+      "utils_logx_colorize",
+      "utils_logx_rationale_34"
+    ],
+    "8": [
+      "sac_core_combined_shape",
+      "sac_core_count_vars",
+      "sac_core_mlp",
+      "sac_core_mlpactorcritic",
+      "sac_core_mlpactorcritic_act",
+      "sac_core_mlpactorcritic_init",
+      "sac_core_mlpqfunction",
+      "sac_core_mlpqfunction_forward",
+      "sac_core_mlpqfunction_init",
+      "sac_core_rationale_10",
+      "sac_core_rationale_111",
+      "sac_core_rationale_19",
+      "sac_core_rationale_30",
+      "sac_core_rationale_41",
+      "sac_core_rationale_74",
+      "sac_core_rationale_91",
+      "sac_core_squashedgaussianmlpactor",
+      "sac_core_squashedgaussianmlpactor_forward",
+      "sac_core_squashedgaussianmlpactor_init",
+      "standalone_sac_core_py"
+    ],
+    "9": [
+      "acrl_acrl_acmain",
+      "acrl_acrl_acshutdown",
+      "acrl_acrl_acupdate",
+      "acrl_acrl_connect",
+      "acrl_acrl_py",
+      "acrl_acrl_rationale_109",
+      "acrl_acrl_rationale_124",
+      "acrl_acrl_rationale_147",
+      "acrl_acrl_rationale_161",
+      "acrl_acrl_rationale_178",
+      "acrl_acrl_rationale_53",
+      "acrl_acrl_rationale_91",
+      "acrl_acrl_respawn_listener",
+      "acrl_acrl_sock_listener",
+      "acrl_acrl_start",
+      "acrl_acrl_stop"
+    ],
+    "10": [
+      "standalone_sac_utils_mpi_tools_py",
+      "utils_mpi_tools_allreduce",
+      "utils_mpi_tools_broadcast",
+      "utils_mpi_tools_mpi_avg",
+      "utils_mpi_tools_mpi_fork",
+      "utils_mpi_tools_mpi_op",
+      "utils_mpi_tools_mpi_statistics_scalar",
+      "utils_mpi_tools_mpi_sum",
+      "utils_mpi_tools_msg",
+      "utils_mpi_tools_num_procs",
+      "utils_mpi_tools_rationale_56",
+      "utils_mpi_tools_rationale_77",
+      "utils_mpi_tools_rationale_82",
+      "utils_mpi_tools_rationale_9"
+    ],
+    "11": [
+      "ac_api_car_stats_abs_level",
+      "ac_api_car_stats_get_has_drs",
+      "ac_api_car_stats_get_has_ers",
+      "ac_api_car_stats_get_has_kers",
+      "ac_api_car_stats_get_max_fuel",
+      "ac_api_car_stats_get_max_rpm",
+      "ac_api_car_stats_rationale_28",
+      "ac_api_car_stats_rationale_36",
+      "ac_api_car_stats_rationale_44",
+      "ac_api_car_stats_rationale_52",
+      "ac_api_car_stats_rationale_60",
+      "ac_api_car_stats_rationale_71",
+      "acrl_ac_api_car_stats_py"
+    ],
+    "12": [
+      "ac_api_input_info_get_brake_input",
+      "ac_api_input_info_get_clutch",
+      "ac_api_input_info_get_gas_input",
+      "ac_api_input_info_get_last_ff",
+      "ac_api_input_info_get_steer_input",
+      "ac_api_input_info_rationale_27",
+      "ac_api_input_info_rationale_36",
+      "ac_api_input_info_rationale_45",
+      "ac_api_input_info_rationale_54",
+      "acrl_ac_api_input_info_py"
+    ],
+    "13": [
+      "acrl_third_party_sim_info_py",
+      "third_party_sim_info_siminfo",
+      "third_party_sim_info_siminfo_close",
+      "third_party_sim_info_siminfo_del",
+      "third_party_sim_info_siminfo_init",
+      "third_party_sim_info_spagefilegraphic",
+      "third_party_sim_info_spagefilephysics",
+      "third_party_sim_info_spagefilestatic"
+    ],
+    "14": [
+      "standalone_sac_utils_plot_py",
+      "utils_plot_get_all_datasets",
+      "utils_plot_get_datasets",
+      "utils_plot_main",
+      "utils_plot_make_plots",
+      "utils_plot_plot_data",
+      "utils_plot_rationale_108",
+      "utils_plot_rationale_64"
+    ],
+    "15": [
+      "standalone_graphs_plot_learning_curve",
+      "standalone_graphs_py",
+      "standalone_graphs_rationale_6"
+    ],
+    "16": [
+      "track_data_path_get_distance_to_center_line",
+      "track_data_path_py",
+      "track_data_path_update"
+    ],
+    "17": [
+      "track_data_compare_vectors_py",
+      "track_data_compare_vectors_update"
+    ],
+    "18": [
+      "track_data_main_py"
+    ],
+    "19": [
+      "readme_acrl"
+    ],
+    "20": [
+      "readme_sac"
+    ]
+  },
+  "cohesion": {
+    "0": 0.06,
+    "1": 0.07,
+    "2": 0.06,
+    "3": 0.08,
+    "4": 0.08,
+    "5": 0.11,
+    "6": 0.09,
+    "7": 0.14,
+    "8": 0.14,
+    "9": 0.17,
+    "10": 0.21,
+    "11": 0.15,
+    "12": 0.2,
+    "13": 0.29,
+    "14": 0.39,
+    "15": 0.67,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0
+  },
+  "gods": [
+    {
+      "id": "sac_ac_environment_acenv",
+      "label": "AcEnv",
+      "degree": 18
+    },
+    {
+      "id": "utils_logx_colorize",
+      "label": "colorize()",
+      "degree": 15
+    },
+    {
+      "id": "utils_logx_logger",
+      "label": "Logger",
+      "degree": 13
+    },
+    {
+      "id": "sac_sac_sacagent",
+      "label": "SacAgent",
+      "degree": 10
+    },
+    {
+      "id": "utils_logx_episodelogger",
+      "label": "EpisodeLogger",
+      "degree": 10
+    },
+    {
+      "id": "standalone_ac_socket_acsocket",
+      "label": "ACSocket",
+      "degree": 9
+    },
+    {
+      "id": "utils_mpi_tools_proc_id",
+      "label": "proc_id()",
+      "degree": 8
+    },
+    {
+      "id": "sac_sac_replaybuffer",
+      "label": "ReplayBuffer",
+      "degree": 7
+    },
+    {
+      "id": "ac_api_car_info_get_delta_to_car_ahead",
+      "label": "get_delta_to_car_ahead()",
+      "degree": 6
+    },
+    {
+      "id": "ac_api_car_info_get_delta_to_car_behind",
+      "label": "get_delta_to_car_behind()",
+      "degree": 6
+    }
+  ],
+  "surprises": [
+    {
+      "source": "AcEnv",
+      "target": "ACSocket",
+      "source_files": [
+        "standalone/sac/ac_environment.py",
+        "standalone/ac_socket.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "main()",
+      "target": "AcEnv",
+      "source_files": [
+        "standalone/main.py",
+        "standalone/sac/ac_environment.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "main()",
+      "target": "SacAgent",
+      "source_files": [
+        "standalone/main.py",
+        "standalone/sac/sac.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source; bridges separate communities"
+    },
+    {
+      "source": "AcEnv",
+      "target": "ACController",
+      "source_files": [
+        "standalone/sac/ac_environment.py",
+        "standalone/ac_controller.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "uses",
+      "why": "inferred connection - not explicitly stated in source"
+    },
+    {
+      "source": "main()",
+      "target": "ACSocket",
+      "source_files": [
+        "standalone/main.py",
+        "standalone/ac_socket.py"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `colorize()` connect `Community 7` to `Community 1`, `Community 3`, `Community 4`?",
+      "why": "High betweenness centrality (0.070) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `AcEnv` connect `Community 1` to `Community 7`?",
+      "why": "High betweenness centrality (0.053) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `EpisodeLogger` connect `Community 3` to `Community 4`?",
+      "why": "High betweenness centrality (0.034) - this node is a cross-community bridge."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 3 inferred relationships involving `AcEnv` (e.g. with `ACController` and `ACSocket`) actually correct?",
+      "why": "`AcEnv` has 3 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 9 inferred relationships involving `colorize()` (e.g. with `.__init__()` and `.connect()`) actually correct?",
+      "why": "`colorize()` has 9 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 2 inferred relationships involving `SacAgent` (e.g. with `EpisodeLogger` and `main()`) actually correct?",
+      "why": "`SacAgent` has 2 INFERRED edges - model-reasoned connections that need verification."
+    },
+    {
+      "type": "verify_inferred",
+      "question": "Are the 3 inferred relationships involving `EpisodeLogger` (e.g. with `ReplayBuffer` and `SacAgent`) actually correct?",
+      "why": "`EpisodeLogger` has 3 INFERRED edges - model-reasoned connections that need verification."
+    }
+  ]
+}
